@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACPI</key>
+	<dict>
+		<key>DSDT</key>
+		<dict>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>Disable original _CRS in touchpad: Rename Method(_CRS,0,S) in ETPD to XCRS</string>
+					<key>Find</key>
+					<data>X0NSUwgIU0JGSQ==</data>
+					<key>Replace</key>
+					<data>WENSUwgIU0JGSQ==</data>
+					<key>Disabled</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
