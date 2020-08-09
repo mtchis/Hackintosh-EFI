@@ -1,1 +1,1 @@
-# Hackintosh-EFI
+# Hackintosh-EFI-Laptop
